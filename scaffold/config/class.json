@@ -1,0 +1,9 @@
+{
+  "title": "班级",
+  "modelName": "Class",
+  "fields": [
+    {"name": "Name", "type": "string", "label": "班级名称", "isList": "yes", "isSort": "yes", "isFilter": "yes", "isSet": "yes" },
+    {"name": "SortOrder", "type": "int", "label": "排序", "isList": "yes", "isSort": "yes", "isFilter": "no", "isSet": "yes"  },
+    {"name": "MajorID", "type": "uint", "label": "专业", "isList": "yes", "isSort": "yes", "isFilter": "yes", "isSet": "yes" }
+  ]
+}

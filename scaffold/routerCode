@@ -1,0 +1,75 @@
+    // 品牌 Restful 路由
+    r.GET("/brand", controller.BrandList)
+	r.DELETE("/brand", controller.BrandDelete)
+	r.POST("/brand", controller.BrandCreate)
+	r.PUT("/brand", controller.BrandUpdate)
+    // 用户 Restful 路由
+    r.GET("/user", controller.UserList)
+	r.DELETE("/user", controller.UserDelete)
+	r.POST("/user", controller.UserCreate)
+	r.PUT("/user", controller.UserUpdate)
+    // 用户 Restful 路由
+    r.GET("/user", controller.UserList)
+	r.DELETE("/user", controller.UserDelete)
+	r.POST("/user", controller.UserCreate)
+	r.PUT("/user", controller.UserUpdate)
+    // 角色 Restful 路由
+    r.GET("/role", controller.RoleList)
+	r.DELETE("/role", controller.RoleDelete)
+	r.POST("/role", controller.RoleCreate)
+	r.PUT("/role", controller.RoleUpdate)
+    // 角色 Restful 路由
+    r.GET("/role", controller.RoleList)
+	r.DELETE("/role", controller.RoleDelete)
+	r.POST("/role", controller.RoleCreate)
+	r.PUT("/role", controller.RoleUpdate)
+    // 权限 Restful 路由
+    r.GET("/privilege", controller.PrivilegeList)
+	r.DELETE("/privilege", controller.PrivilegeDelete)
+	r.POST("/privilege", controller.PrivilegeCreate)
+	r.PUT("/privilege", controller.PrivilegeUpdate)
+    // 角色授权 Restful 路由
+    r.GET("/role-privilege", controller.RolePrivilegeList)
+	r.DELETE("/role-privilege", controller.RolePrivilegeDelete)
+	r.POST("/role-privilege", controller.RolePrivilegeCreate)
+	r.PUT("/role-privilege", controller.RolePrivilegeUpdate)
+    // 角色授权 Restful 路由
+    r.GET("/role-privilege", controller.RolePrivilegeList)
+	r.DELETE("/role-privilege", controller.RolePrivilegeDelete)
+	r.POST("/role-privilege", controller.RolePrivilegeCreate)
+	r.PUT("/role-privilege", controller.RolePrivilegeUpdate)
+    // 属性类型 Restful 路由
+    r.GET("/attr-type", controller.AttrTypeList)
+	r.DELETE("/attr-type", controller.AttrTypeDelete)
+	r.POST("/attr-type", controller.AttrTypeCreate)
+	r.PUT("/attr-type", controller.AttrTypeUpdate)
+    // 属性分组 Restful 路由
+    r.GET("/attr-group", controller.AttrGroupList)
+	r.DELETE("/attr-group", controller.AttrGroupDelete)
+	r.POST("/attr-group", controller.AttrGroupCreate)
+	r.PUT("/attr-group", controller.AttrGroupUpdate)
+    // 属性分组 Restful 路由
+    r.GET("/attr-group", controller.AttrGroupList)
+	r.DELETE("/attr-group", controller.AttrGroupDelete)
+	r.POST("/attr-group", controller.AttrGroupCreate)
+	r.PUT("/attr-group", controller.AttrGroupUpdate)
+    // 属性 Restful 路由
+    r.GET("/attr", controller.AttrList)
+	r.DELETE("/attr", controller.AttrDelete)
+	r.POST("/attr", controller.AttrCreate)
+	r.PUT("/attr", controller.AttrUpdate)
+    // 产品属性 Restful 路由
+    r.GET("/product-attr", controller.ProductAttrList)
+	r.DELETE("/product-attr", controller.ProductAttrDelete)
+	r.POST("/product-attr", controller.ProductAttrCreate)
+	r.PUT("/product-attr", controller.ProductAttrUpdate)
+    // 分组 Restful 路由
+    r.GET("/group", controller.GroupList)
+	r.DELETE("/group", controller.GroupDelete)
+	r.POST("/group", controller.GroupCreate)
+	r.PUT("/group", controller.GroupUpdate)
+    // 班级 Restful 路由
+    r.GET("/class", controller.ClassList)
+	r.DELETE("/class", controller.ClassDelete)
+	r.POST("/class", controller.ClassCreate)
+	r.PUT("/class", controller.ClassUpdate)
